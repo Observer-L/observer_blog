@@ -14,23 +14,28 @@ class Category(models.Model):
 
 
 class Tag(models.Model):
-
     name = models.CharField(max_length=100)
 
     def __str__(self):
         return self.name
 
-
+    
 class Post(models.Model):
 
     title = models.CharField(max_length=70)
     body = models.TextField()
+
     created_time = models.DateTimeField()
     modified_time = models.DateTimeField()
+
     excerpt = models.CharField(max_length=200, blank=True)
+
     category = models.ForeignKey(Category)
+
     tags = models.ManyToManyField(Tag, blank=True)
+
     author = models.ForeignKey(User)
+
     views = models.PositiveIntegerField(default=0)
 
     def __str__(self):
@@ -61,3 +66,5 @@ class Post(models.Model):
 
         # 调用父类的 save 方法将数据保存到数据库中
         super(Post, self).save(*args, **kwargs)
+
+

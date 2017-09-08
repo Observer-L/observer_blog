@@ -1,6 +1,9 @@
 # 个人博客
 基于 Python3.5 和 Django 1.10 的 Django Blog 项目。  
 ## 项目演示：[观测站](http://elpsycongroo.cc/)
+![image](https://raw.githubusercontent.com/Observer-L/observer_blog/master/showcase/showcase.gif)
+***
+![image](https://raw.githubusercontent.com/Observer-L/observer_blog/master/showcase/showcase1.jpg)
 ## 在本地运行项目
 
 1. 克隆项目到本地

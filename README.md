@@ -1,6 +1,6 @@
 # 个人博客
 基于 Python3.5 和 Django 1.10 的 Django Blog 项目。  
-## 项目演示：[观测站](http://elpsycongroo.cc/)
+## 项目演示：~~[观测站](https://github.com/Observer-L/observer_blog/edit/master/README.md/#)~~ 服务器已过期
 ![image](https://raw.githubusercontent.com/Observer-L/observer_blog/master/showcase/showcase.gif)
 ***
 ![image](https://raw.githubusercontent.com/Observer-L/observer_blog/master/showcase/showcase1.jpg)
